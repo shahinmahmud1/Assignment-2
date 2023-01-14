@@ -30,6 +30,7 @@ header styles
 .header {
     background-color: rgba(255, 144, 14, 0.1);
     width: 100%;
+
 }
 
 .nav-bar {
@@ -255,6 +256,7 @@ facts styles
     border: 1px solid #FF900E;
     padding: 30px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .fact-item h2 {
@@ -267,5 +269,39 @@ facts styles
 .fact-item p {
     font-weight: 600;
     font-size: 16px;
+    color: #727272;
+}
+.fact-item:hover{
+    background-color: #FF900E;
+}
+
+/*-----------
+about style
+---------*/
+
+.about{
+    max-width: 1066px;
+    margin: 80px auto 30px;
+}
+.about-title{
+    font-size: 25px;
+    margin: 50px 0;
+}
+.about-items{
+    display: flex;
+    gap: 80px;
+    text-align: justify;
+    align-items: center;
+}
+.about-sub-title{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.about-desc{
+    box-shadow: 5px 5px 20px 1px lightgray;
+    border-radius: 5px;
+    padding: 20px;
+}
+.about-desc p{
     color: #727272;
 }
