@@ -68,7 +68,7 @@ heading styles
 -----------*/
 
 .heading {
-    max-width: 50%;
+    max-width: 80%;
     text-align: center;
     margin: 60px auto 40px;
 }
@@ -378,7 +378,8 @@ Media Query for Mobile version
 
     .feature-items,
     .banner-info,
-    .banner-image{
+    .banner-image,
+    .heading{
         width: 100%;
     }
 
